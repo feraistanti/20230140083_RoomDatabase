@@ -17,7 +17,7 @@ fun SiswaApp(navController: NavHostController= rememberNavController(), modifier
     HostNavigasi(navController = navController)
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class)  //membuat navigasi utama aplikasi Siswa
 @Composable
 fun HostNavigasi(
     navController: NavHostController,
