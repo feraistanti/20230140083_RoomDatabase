@@ -6,11 +6,12 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "tblSiswa")
 data class Siswa(
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey(autoGenerate = true)  //Entity Siswa (tabel Room)
     val id : Int = 0,
     val nama : String,
     val alamat : String,
     val telpon:String
 )
+
 
 
