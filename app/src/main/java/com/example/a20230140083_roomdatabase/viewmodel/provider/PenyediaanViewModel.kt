@@ -10,7 +10,8 @@ import com.example.a20230140083_roomdatabase.viewmodel.EntryViewModel
 
 
 object PenyediaViewModel {
-    val Factory = viewModelFactory {
+    val Factory = viewModelFactory {  //Provider ViewModel untuk aplikasi
+
         initializer {
             HomeViewModel(aplikasiSiswa().container.repositoriSiswa)
         }
