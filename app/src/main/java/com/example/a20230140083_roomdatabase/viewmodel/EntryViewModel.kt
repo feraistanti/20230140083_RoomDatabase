@@ -58,5 +58,5 @@ fun Siswa.toDetailSiswa(): DetailSiswa = DetailSiswa(
     id = id,
     nama = nama,
     alamat = alamat,
-    telpon = telpon
+    telpon = telpon     //ViewModel untuk input & simpan Siswa
 )
