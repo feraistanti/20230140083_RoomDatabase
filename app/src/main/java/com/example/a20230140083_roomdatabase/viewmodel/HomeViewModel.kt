@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
-
+  //ViewModel untuk menampilkan daftar Siswa
 class HomeViewModel(private val repositoriSiswa: RepositoriSiswa): ViewModel() {
     companion object {
         private const val TIMEOUT_MILLIS = 5_000L
